@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 
 const Recipe = ({ params: { id } }) => {
     const [recipe, setRecipe] = useState([])
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         const fetchRecipe = async () => {
