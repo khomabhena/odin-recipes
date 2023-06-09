@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <div className=' flex flex-col md:flex-row gap-8 justify-between'>
         <div className=' flex-1 mt-24'>
-            <h1 className=' text-6xl text-slate-600 font-extrabold'>Enjoy our home cooked meals</h1>
+            <h1 className=' text-5xl md:text-6xl text-slate-600 font-extrabold'>Enjoy our home cooked meals</h1>
             <p className=' mt-4 text-slate-500 text-lg'>These healthy recipes shake up your food favorites by adding more veggies and swapping out the cooking method</p>
             <Link href="/recipes">
-                <button className=' bg-yellow-300 shadow-lg px-8 py-4 mt-12 rounded-lg font-extrabold'>View Recipes</button>
+                <button className=' bg-yellow-300 shadow-lg px-8 py-4 mt-8 md:mt-12 rounded-lg font-extrabold'>View Recipes</button>
             </Link>
         </div>
         {/* <div className=' flex-1 bg-emerald-400'> */}

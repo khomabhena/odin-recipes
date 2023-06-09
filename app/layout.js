@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className + ' bg-slate-100'}>
-        <div className=' max-w-[1000px] mx-auto min-h-screen'>
+        <div className=' px-4 md:max-w-[1000px] mx-auto min-h-screen'>
           <Navbar />
           {children}
         </div>
